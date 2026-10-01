@@ -41,7 +41,7 @@ export default function Projects() {
                 {project.highlight && <p className="project-highlight">{project.highlight}</p>}
                 <p className="project-technologies">{project.technologies.join(' / ')}</p>
                 <div className="project-actions">
-                  <PortfolioLink href={project.githubUrl} linkName={`${project.title} on GitHub`} className="text-link">
+                  <PortfolioLink href='https://github.com/LakkshitKhare/EEG-Mental-Health-App' linkName={`${project.title} on GitHub`} className="text-link">
                     VIEW PROJECT<ArrowUpRight size={18} strokeWidth={1.5} aria-hidden="true" />
                   </PortfolioLink>
                   <PortfolioLink href={project.githubUrl} linkName={`${project.title} GitHub`} className="project-github">

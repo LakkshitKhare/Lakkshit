@@ -173,7 +173,7 @@ export const projects: Project[] = [
 ];
 
 export const skillGroups = [
-  { name: 'Programming', skills: ['Java', 'Python', 'TypeScript', 'HTML', 'CSS'] },
+  { name: 'Programming', skills: ['Java', 'Python', 'TypeScript', 'HTML', 'CSS','PL/SQL'] },
   { name: 'Backend', skills: ['Spring Boot', 'FastAPI', 'REST APIs'] },
   { name: 'Frontend', skills: ['Angular', 'TypeScript', 'HTML', 'CSS', 'Bootstrap'] },
   {
@@ -182,6 +182,6 @@ export const skillGroups = [
   },
   {
     name: 'Tools & Platforms',
-    skills: ['Git', 'GitHub', 'JupyterLab', 'Google Colab', 'IBM Watson Studio', 'Hadoop', 'Quadratic AI'],
+    skills: ['Git', 'GitHub', 'JupyterLab', 'Google Colab', 'IBM Watson Studio', 'Hadoop', 'Quadratic AI','Oracle EBS'],
   },
 ];
